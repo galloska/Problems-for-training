@@ -33,8 +33,6 @@ const int MAXN = 100001;
 
 int gcd(int a, int b) { return b ? gcd(b, a%b) : a; }
 
-set<int> ans;
-
 struct AhoCorasick {
 	int sz;
 	int fin[MAXN];
